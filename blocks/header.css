@@ -1,0 +1,15 @@
+.header {
+  background-color: #fff;
+  padding: 0 0 10px;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+
+.header__logo {
+  width: 94px;
+  height: 26px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
