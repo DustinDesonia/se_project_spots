@@ -12,6 +12,10 @@ color, fonts, gradients and shapes.
 i plan on using javaScript to mage my page more interative. for example: making the hearts on my cards filled when you click on them.
 Look forward to seeing what i can do in the future.
 
+# Link to my github:
+
+se_project_spots/blob/4f9388459f49b11d93c3b38d03cb67f62863e0a0/README.mdnia/se_project_spots.git
+
 ### Overview
 
 - Intro

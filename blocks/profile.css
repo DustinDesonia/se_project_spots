@@ -2,7 +2,6 @@
   display: flex;
   padding: 34px 0 20px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  margin-bottom: 20px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
@@ -10,7 +9,8 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
-  border-radius: 5px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .profile__column {
@@ -20,8 +20,6 @@
 
 .profile__name {
   margin: 0 0 12px;
-  height: 96px;
-
   font-size: 32px;
   font-weight: 500;
   line-height: 1;
@@ -36,10 +34,9 @@
 }
 
 .profile__description {
+  font-weight: 500;
   margin: 0;
-  width: 97px;
-  width: 420px;
-  height: 48px;
+  max-width: 420px;
   font-size: 16px;
   line-height: 16px;
   color: #212121b2;
@@ -56,11 +53,13 @@
   margin-top: auto;
   opacity: 70%;
   border: none;
-  width: Hug (109.34px);
-  height: Hug (16px);
+  width: 109.34px;
+  height: 16px;
   align-self: start;
   display: flex;
+
   align-items: center;
+  justify-content: center;
   gap: 8px;
   background: none;
   padding: 0px;
@@ -70,14 +69,12 @@
 
 .profile__edit-button:hover {
   cursor: pointer;
-  background-color: #212121cc;
-  background: none;
-  border: none;
+  opacity: 1;
 }
 
 .profile__add-button {
   margin-left: auto;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: #212121;
   color: #fff;
   margin-left: auto;
@@ -93,17 +90,12 @@
 
 .profile__add-button:hover {
   cursor: pointer;
-  background-color: #212121cc;
-  border: none;
+  opacity: 0.8;
 }
 
 .profile__add-button img {
   width: 12px;
   height: 12px;
-}
-
-.profile__newpost {
-  display: none;
 }
 
 @media screen and (max-width: 627px) {
@@ -113,6 +105,7 @@
     align-items: center;
     text-align: center;
     padding-top: 20px;
+    margin: 0 auto;
   }
 
   .profile__avatar {
@@ -124,24 +117,11 @@
   .profile__name {
     font-size: 20px;
     margin: 0 0 6px;
-    font-weight: 500;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
     max-width: 288px;
   }
 
   .profile__description {
     margin: 0 0 32px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
     max-width: 288px;
   }
 
@@ -152,5 +132,8 @@
   .profile__add-button {
     margin: 0;
     width: 100%;
+  }
+  .profile__edit-button {
+    margin: 0 auto;
   }
 }
