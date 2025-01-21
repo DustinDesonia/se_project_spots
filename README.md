@@ -14,7 +14,7 @@ Look forward to seeing what i can do in the future.
 
 # Link to my github:
 
-se_project_spots/blob/4f9388459f49b11d93c3b38d03cb67f62863e0a0/README.mdnia/se_project_spots.git
+https://dustindesonia.github.io/se_project_spots/
 
 ### Overview
 
